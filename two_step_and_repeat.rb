@@ -9,6 +9,7 @@ sleep(0.5)
 puts "Stop"
 sleep(1)
 end
+end
 
 def a_few_more_steps
 loop do
@@ -21,6 +22,7 @@ loop do
   puts "turn"
   sleep(1)
 end 
+end
 
 def how_many_steps?
   steps = 0 
@@ -46,5 +48,4 @@ def break_dance
   else steps==6
   break 
   end
-end
 end
