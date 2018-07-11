@@ -49,7 +49,7 @@ def break_dance
   elsif 
     puts "right" 
     sleep(0.5)
-  else steps=6
+  else steps==6
     break 
   end
 end
